@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
-import { SocialList } from "../components/SocialList";
+
 
 export default function Index() {
   return (
@@ -12,12 +12,23 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <h1>
+          <h1 style={{color:"#FF0A7C"}}>
             Hi, We're Next.js & Netlify<span className="fancy">.</span>
           </h1>
           <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
+          <h2 >A blog template with Next.js and Netlify.</h2>
+       
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
+          <h1>eer</h1>
         </div>
       </div>
       <style jsx>{`
@@ -25,7 +36,7 @@ export default function Index() {
           display: flex;
           align-items: center;
           justify-content: center;
-          flex: 1 1 auto;
+          // flex: 1 1 auto;
           padding: 0 1.5rem;
         }
         h1 {

@@ -2,14 +2,14 @@ import Head from "next/head";
 import React from "react";
 import styles from "../../public/styles/content.module.css";
 import Author from "../components/Author";
-import Copyright from "../components/Copyright";
+import Copyright from "../components/footer/Copyright";
 import Date from "../components/Date";
 import Layout from "../components/Layout";
 import BasicMeta from "../components/meta/BasicMeta";
 import JsonLdMeta from "../components/meta/JsonLdMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
-import { SocialList } from "../components/SocialList";
+import {SocialList} from "../components/footer/SocialList";
 import TagButton from "../components/TagButton";
 import { getAuthor } from "../lib/authors";
 import { getTag } from "../lib/tags";
@@ -92,7 +92,7 @@ export default function Index({
           {`
             .container {
               display: block;
-              max-width: 36rem;
+              // max-width: 36rem;
               width: 100%;
               margin: 0 auto;
               padding: 0 1.5rem;
